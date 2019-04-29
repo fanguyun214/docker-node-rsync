@@ -1,4 +1,4 @@
-FROM node
+FROM node:10.15.3
 RUN apt-get update && \
     apt-get -y install rsync apt-utils && \
     apt-get -y remove apt-utils && \
